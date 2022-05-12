@@ -30,8 +30,7 @@ resource "google_compute_instance" "vm01" {
   }
 
   metadata = {
-    foo = "news"
-    value = "paper"
+  
   }
 
   
