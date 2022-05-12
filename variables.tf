@@ -1,5 +1,5 @@
 variable "name" {
-   default = "news"
+   default = "newvm02"
 }
 variable "zone" {
   default = "us-central1-a"
