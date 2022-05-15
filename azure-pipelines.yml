@@ -10,3 +10,6 @@ stages:
       - job: "Firstjob"
         steps:
           - script: echo "This is my Linux Os"
+      - job: "SecondJob"
+        steps:
+          - echo "This is second job"
