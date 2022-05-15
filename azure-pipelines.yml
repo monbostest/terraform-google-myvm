@@ -1,13 +1,12 @@
-
 trigger:
-- main
-
+  - main
 pool:
   name: news
   vmImage: ubuntu-latest
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-
+stages:
+  - stage: "This is my first stage"
+    jobs:
+      - job: "Firstjob"
+        steps:
+          - script: echo "This is my Linux Os"
