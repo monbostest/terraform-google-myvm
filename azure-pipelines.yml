@@ -12,4 +12,4 @@ stages:
           - script: echo "This is my Linux Os"
       - job: "SecondJob"
         steps:
-          - echo "This is second job"
+          - script:  echo "This is second job"
